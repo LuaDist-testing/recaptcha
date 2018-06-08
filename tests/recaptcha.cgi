@@ -1,9 +1,9 @@
 #! /bin/bash /home/yuri/sputnik/bin/wsapi.cgi
 require("recaptcha")
 
-PRIVATE="6Led-wEAAAAAAKuR-82cVYNAKk7ELyFDIzzccXdi"
-PUBLIC="6Led-wEAAAAAACh6qVVx-L4Kzd_YOkDj33jx97qN"
-OWN_URL="/cgi-bin/recaptcha.cgi"
+PRIVATE="<your private key here>"
+PUBLIC="<your public key here>"
+OWN_URL="/cgi-bin/recaptcha.cgi" -- you might need to change this
 
 captcha = recaptcha.new{PRIVATE, PUBLIC}
 

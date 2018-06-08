@@ -16,7 +16,7 @@ Include the output of captcha:get_html() into your form.  For instance:
               .. "<input type='submit'/>"
               .. "</form>"
 
-## Verifying user's input
+## Verifying User's Input
 
 Send your POST fields and the user's IP address to captcha:verify().  For instance, for WSAPI:
 
