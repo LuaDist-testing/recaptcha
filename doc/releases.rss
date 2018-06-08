@@ -1,0 +1,14 @@
+<rss version="2.0">
+ <channel>
+  <title>ReCaptcha</title>
+  <description/>
+   <link>http://sputnik.freewisdom.org/lib/recaptcha/</link>
+     
+   <item>
+    <link>http://sputnik.freewisdom.org/files/recaptcha-$version.tar.gz</link>
+    <title>ReCaptcha 8.05.26</title>
+    <guid isPermalink="true">http://sputnik.freewisdom.org/files/recaptcha-8.05.26.tar.gz</guid>
+    <description>the initial release</description>
+   </item>
+ </channel>
+</rss>
